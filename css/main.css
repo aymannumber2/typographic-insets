@@ -22,6 +22,7 @@ body {
 img {
   display: block;
   width: 100%;
+  margin-top: .5rem;
 }
 
 .wrapper {
@@ -92,6 +93,10 @@ figure {
   float: right;
   width: 40%;
   text-align: left;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin-left: .5em;
+  margin-right: -10em;
 }
 
 .wrapper p:first-child::first-letter {
@@ -101,8 +106,7 @@ figure {
   display: inline-block;
   text-align: center;
   float: left;
-  text-indent: 0em;
-  padding: 0.25em;
+  padding: .25em;
   font-style: normal;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
@@ -113,28 +117,14 @@ blockquote {
   width: 42%;
   font-size: 1.5rem;
   color: #666;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin: .5em 1em .5em -6em;
 }
 
 figcaption {
   font-style: italic;
-  font-size: 0.875rem;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-figure {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  margin-left: 0.5em;
-  margin-right: -10em;
-}
-
-img {
-  margin-top: 0.5rem;
-}
-
-blockquote {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  margin: 0.5em 1em 0.5em -6em;
+  font-size: .875rem;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
