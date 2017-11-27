@@ -103,6 +103,7 @@ footer {
 .img1 {
   float: right;
   width: 40%;
+  text-align: left;
 }
 
 blockquote {
