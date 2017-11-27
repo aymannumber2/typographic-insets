@@ -88,22 +88,24 @@ footer {
 
 /* Write your CSS here */
 
-.bigw {
-  font-size: 5rem;
-  color: #f2f2f2;
-  background-color: #666;
-  margin-right: 0;
-  display: inline-block;
-  text-align: center;
-  float: left;
-  text-indent: 0em;
-  width: 15%;
-}
-
 .img1 {
   float: right;
   width: 40%;
   text-align: left;
+}
+
+.wrapper p:first-child::first-letter {
+  font-size: 5rem;
+  color: #f2f2f2;
+  background-color: #666;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  text-indent: 0em;
+  padding: 0.25em;
+  font-style: normal;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 blockquote {
@@ -111,12 +113,6 @@ blockquote {
   width: 42%;
   font-size: 1.5rem;
   color: #666;
-}
-
-.bigw {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  margin-right: 0.15em;
 }
 
 figcaption {
